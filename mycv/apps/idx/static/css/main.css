@@ -1,0 +1,222 @@
+body{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	font-family: Montserrat;
+	font-weight: 400;
+}
+h2{
+	color:#000;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h3{
+	font-weight: 600;
+	font-size: 16px;
+}
+ul{
+	line-height: 2;
+}
+.main-block {
+    display: flex;
+    width: 100%;
+}
+.left{
+	flex:1;
+	border-right: 1px solid #0F4C81;
+	background: #eee;
+	top: 0;
+    bottom: 0;
+    min-width: 360px;
+}
+.left a{
+	color:#666;
+	text-decoration: none;
+}
+
+
+.left p{
+	font-size: 12px;
+}
+.lang-conteiner{
+	display: flex;
+	padding: 10px 0;
+	background: RGB(62,62,62);
+}
+.lang{
+	flex: 1;
+	text-align: center;
+}
+.lang a{
+	color:#eee;
+}
+.photo img{
+	width: 100%;
+}
+.skills>div{
+	margin: 50px 20px;
+}
+.skills>div>div{
+	margin: 10px 20px;
+}
+#sokolov{
+	background: RGB(62,62,62);
+    padding: 10px;
+    margin:-10px 0 50px 0;
+    color: #fff;
+}
+#sokolov h2{
+	font-size: xx-large;
+    font-weight: 700;
+    text-align: center;
+    margin: 0px 0 0px 0px;
+    border: 0;
+    color: #fff;
+}
+#sokolov p{
+	color: #eee;
+    text-align: center;
+    margin-top: 0;
+}
+#sokolov>div{
+	margin: 10px 30px;
+}
+.icons{
+    height: 2.5vw;
+    max-height: 100px;
+    vertical-align: middle;
+}
+.left .icons{
+	padding: 1%;
+}
+.socials_span{
+	padding-left: 80px;
+}
+
+.knowledges h2{
+	border-bottom: 1px solid;
+	text-transform: uppercase;
+}
+.knowledges img {
+    margin: 0 5px;
+}
+.right{
+	flex:4;
+	color: #84898c;
+	padding: 0 20px;
+	font-size: 12px;
+}
+.right h2{
+	border-bottom: 1px solid;
+	color: #112c77;
+}
+.right p{
+	font-weight: 400;
+}
+.right a{
+	color: #84898c;
+}
+.stages{
+	margin-bottom: 25px;
+}
+.stages h2{
+	
+}
+
+#cat-1 .wrapper{
+	display: flex;
+}
+#cat-1 .stages{
+	flex: 1;
+	margin-bottom: 0;
+}
+#cat-1 p{
+	border: 1px solid transparent;
+	padding: 2px;
+}
+
+#cat-2 .exp_conteiner {
+    display: flex;
+    align-items: center;
+}
+#cat-2 .data-exp {
+    text-align: center;
+    flex: 1;
+    font-size: 14px;
+    font-weight: 400;
+}
+#cat-2 .cont-conteiner{
+	flex: 6;
+}
+
+#cat-2 .stages {
+    box-shadow: inset 0 0 1px 0px;
+    
+}
+#cat-1 .cont-conteiner {
+    margin: auto;
+    width: fit-content;
+    min-width: 160px;
+    padding-left: 25px;
+    border-left:1px solid transparent ;
+    border-right:1px solid transparent ;
+}
+#cat-1 .cont-conteiner:hover{
+	border-left:1px solid lightgrey ;
+    border-right:1px solid lightgrey ;
+}
+
+
+#cat-2 .exp_conteiner:hover{
+	background: rgb(250, 250, 250);
+	color: #333;
+}
+
+@media screen and (max-width: 736px) {
+	h2{
+		padding: 10px 0 0 15px;
+	}
+	.main-block{
+		display: block;
+	}
+	.left{
+		padding-bottom: 10px;
+	}
+	.right{
+		padding: 0;
+	}
+	#cat-1 .wrapper{
+		flex-wrap: wrap;
+	}
+	#cat-1 .stages{
+		width: 50%;
+	}
+	#cat-1 .cont-conteiner {
+		padding-left: 10px;
+	}
+	.icons{
+	    height: 6vw;
+	    padding-right: 5px;
+	}
+	.left .icons{
+		height: 15vw;
+	}
+	#cat-2 .exp_conteiner{
+		display: block;
+	}
+	#cat-2 .data-exp{
+	    text-align: right;
+	    padding: 15px 30px 0px 0px;
+	}
+	.data-exp{
+	    text-align: right;
+	    padding: 15px 30px 0px 0px;
+	}
+	.cont-conteiner{
+	    padding: 0 5px 10px 15px;
+	}
+	h3 {
+	    margin-top: 10px;
+	}
+
+}

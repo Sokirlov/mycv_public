@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="Layer_1" image-rendering="optimizeQuality" text-rendering="geometricPrecision" shape-rendering="geometricPrecision"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 260 300"
+	 style="enable-background:new 0 0 260 300;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#2A5297;}
+	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#19377A;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#FEFEFE;}
+</style>
+<rect x="-126" y="-106" class="st0" width="512" height="512"/>
+<polygon class="st1" points="130,0 195,37 260,75 260,150 260,225 195,263 130,300 65,263 0,225 0,150 0,75 65,37 "/>
+<polygon class="st2" points="130,300 65,263 0,225 0,150 0,75 65,37 130,0 "/>
+<polygon class="st1" points="130,25 184,56 238,87 238,150 238,213 184,244 130,275 76,244 22,213 22,150 22,87 76,56 "/>
+<path class="st3" d="M111,122H98l-1,28h14v70h28v-70h21l3-28h-23c0-25,2-16,22-18V80c-5,0-17,0-23,0c-7,0-13,2-17,6
+	C111,94,111,106,111,122z"/>
+</svg>

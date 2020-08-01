@@ -1,0 +1,59 @@
+{% extends "base.html" %}
+{% load idx_tags %}
+{% load static %}
+{% load i18n %}
+{% block title %}My Blog{% endblock %}
+{% block content %}
+<div class="left">
+	<div class="lang-conteiner">
+			{% get_current_language as LANGUAGE_CODE %}
+			{% get_available_languages as LANGUAGES %}
+			{% for language_code, language_name in LANGUAGES %}
+				<div class="lang">
+					<a href="/{{ language_code }}/" />{{ language_name }}</a>
+				</div>
+			{% endfor %}
+	</div>
+	<div class="photo">
+		<img src="{% static "img/photo.jpg"%}" >
+	</div>
+	<div class="skills">
+	    {% for c in conts %}
+		    <div id="{{c.slug}}">
+		        <h2>{{ c.name }}</h2>
+		        <div>
+		            {{ c.content|markdown }}
+		        </div>
+		    </div>
+	    {% endfor %}
+    </div>
+</div>        
+	<div class="right">
+		
+
+
+	    {% for cat in cteg %}
+	    <div id="cat-{{cat.idsort}}">
+	    	<h2>{{cat.category}}</h2>
+	    		<div class="wrapper">
+		    	{% for j in exper %}
+		    		{% if j.category_id == cat.id %}
+					    <div class="stages">
+					        <div class="exp_conteiner">
+						        <div class="data-exp"><em> {% if j.startwork != None %}
+						        {{ j.startwork }} - {% endif %} 
+						        {% if j.endwork != None %} {{ j.endwork }} {% endif %} </em>
+						    	</div>
+						        <div class="cont-conteiner">
+						        	<h3 id="{{j.slug}}">{{ j.name }}</h3>
+						            {{ j.content|markdown }}
+						        </div>
+						    </div>
+					    </div>
+					    {% endif %}
+			    	{% endfor %}   
+			    	</div> 
+	    </div>
+	    {% endfor %}
+</div>
+{% endblock %}

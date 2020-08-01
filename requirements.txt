@@ -1,0 +1,4 @@
+Django==3.0.7
+django_modeltranslation==0.15
+Markdown==3.2.2
+modeltranslation==0.25
