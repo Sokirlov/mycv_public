@@ -50,6 +50,9 @@ ul{
 .lang a{
 	color:#eee;
 }
+.photo{
+	min-height: 360px;
+}
 .photo img{
 	width: 100%;
 }
